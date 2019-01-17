@@ -1,6 +1,6 @@
-print("Enter DOB in such manner","Date: x","Month: y ","Year: z",sep="\n")
+print("Enter DOB in such manner","Date: x","Month:y ","Year: z",sep="\n")
 y=int(input("Date: "))
-x=int(input("Month: "))
+x=int(input("Month:"))
 z=int(input("Year: "))
 days=0;
 for i in range(1,(x+1)):
