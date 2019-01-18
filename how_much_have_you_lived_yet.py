@@ -57,7 +57,7 @@ for h in range((z+1),z1):
         else:
                 days1= days1 + 365;
 t=q +days1;
-if ((x==2 and y==29 and z%4!=0)) or ((x1==2 and y1==29 and (z1)%4!=0)) or (z1<z):
+if ((x==2 and y==29 and z%4!=0)) or ((x1==2 and y1==29 and (z1)%4!=0)) or (z1<z) or y>31 or y1>31 or x>12 or x1>12 :
         print("Invalid Input.")
 elif ((y>28 and x==2) or (y1>28 and x1==2)):
         print("Invalid Input.")        
